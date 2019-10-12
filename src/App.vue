@@ -37,8 +37,7 @@
             A developer with 4 years of hand on experience in both frontend and backend development, devop, data analysis and project management.
           </p>
           <div class="font-black mt-16 flex flex-wrap ">
-            <a :href="links.github" class="block m-2  bg-white px-4 py-2">Resume</a>
-            <a :href="links.github" class="block m-2  bg-white px-4 py-2">Email</a>
+            <a :href="links.email" class="block m-2  bg-white px-4 py-2">Email</a>
             <a :href="links.github" class="block m-2  bg-white px-4 py-2">Github</a>
             <a :href="links.linkedIn" class="block m-2  bg-white px-4 py-2">LinkedIn</a>
           </div>
