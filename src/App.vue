@@ -165,6 +165,13 @@ export default {
           live: false,
           image: require('./assets/spring.png'),
           code: "https://github.com/ken-bem/primavera"
+        },
+        {
+            name: "Puerto Rico Produce",
+            tags: ["VueJS", "Netlify", "Rest API"],
+            live: "https://zealous-swartz-adcf80.netlify.com/",
+            code: "https://github.com/ken-bem/puertoricoproduce",
+            image: require('./assets/produce.png'),
         }
       ],
       links: {
