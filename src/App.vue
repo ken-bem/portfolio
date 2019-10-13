@@ -131,7 +131,7 @@ export default {
           name: "Other",
           tags: ["Git", "Github", "Elasticsearch", "GraphQL",
               "Rest API", "WordPress", "Lombok", "Data Analysis", "AWS",
-          "Digital Ocean", "Google APIS", "Mapbox", "Twilio", "Facebook Business SDK"]
+          "Digital Ocean", "Google APIS", "Mapbox", "Twilio", "Facebook Business SDK", "Docker"]
         },
         {
           name: "Language",
