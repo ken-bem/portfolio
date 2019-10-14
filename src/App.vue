@@ -91,14 +91,20 @@
       <div class="px-4 pt-4">
         <p class="text-2xl uppercase">Skills</p>
       </div>
-      <div class="flex flex-wrap ">
-          <div class="border-2 p-8 mx-2 my-2" v-for="(skill, index) in skills" :key="index">
-              <div class="px-8 text-center">
-                <h2>{{skill.name}}</h2>
-              </div>
-              <div class="w-48 text-center">
-                <span v-for="(tag, index) in skill.tags" :key="index" class="ml-2">
-                  <span v-if="index>0">&bullet;</span> {{tag}}</span>
+      <div class="row">
+          <div class=" col-lg-3 col-xs-12  mt-1 " v-for="(skill, index) in skills" :key="index">
+
+              <div class="p-4  text-center border-2 h-64">
+                  <div class="px-8 text-center">
+                      <h2 class="font-black text-xl">{{skill.name}}</h2>
+                  </div>
+                  <div class=" text-center">
+                    <span v-for="(tag, index) in skill.tags"
+                      :key="index"
+                      class="ml-2">
+                        <span v-if="index>0">&bullet;</span> {{tag}}
+                    </span>
+                  </div>
               </div>
           </div>
       </div>
