@@ -56,20 +56,21 @@
             <div class="row">
                 <div v-for="( project, index) in projects"
                      :key="index"
-                     class="col-xs-12 col-sm-8 col-md-6 col-lg-4 mt-3">
+                     class="col-xs-12 col-sm-12 col-md-6 col-lg-4 mt-3">
                   <div class="p-4 mx-2 bg-white shadow rounded">
                       <div class="">
-                          <img :src="project.image" class="h-32 w-full object-cover">
+                          <img :src="project.image"
+                               class="h-32 sm:h-64 w-full object-cover">
                       </div>
-                      <div class="flex-wrap flex mt-2">
+                      <div class="flex-wrap flex mt-4">
                           <span class="bg-blue-200 px-2 mr-3 text-blue-900 text-sm"
                                 v-for="(tag, index) in project.tags"
                                 :key="index">{{tag}}</span>
                       </div>
-                      <div>
+                      <div class="mt-2">
                           <p class="text-2xl uppercase leading-loose">{{project.name}}</p>
                       </div>
-                      <div class="flex justify-around">
+                      <div class="flex justify-around mt-3">
                           <a
                                   target="_blank"
                                   class="bg-teal-300 px-2  text-white font-black"
